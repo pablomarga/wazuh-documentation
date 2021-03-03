@@ -95,7 +95,7 @@ In this case, all the logs above are alerts, so we will see an instance of the l
         "id": 516,
         "firedtimes": 7,
         "groups": [
-          "ossec",
+          "wazuh",
           "rootcheck"
         ],
         "pci_dss": [

@@ -168,7 +168,7 @@ Upgrading Logstash
 
           # cp /etc/logstash/conf.d/01-wazuh.conf /backup_directory/01-wazuh.conf.bak
           # curl -so /etc/logstash/conf.d/01-wazuh.conf https://raw.githubusercontent.com/wazuh/wazuh/v|WAZUH_LATEST|/extensions/logstash/6.x/01-wazuh-local.conf
-          # usermod -a -G ossec logstash
+          # usermod -a -G wazuh logstash
 
       .. group-tab:: Remote configuration
 
